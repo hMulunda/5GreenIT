@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Copier code depuis Github vers notre server Ubuntu
-        uses: actions/checkoutv@3
+        uses: actions/checkout@v3
       - name: Installer nodeJS sur notre serveur Ubuntu
         uses: actions/setup-node@v3
       - name: Installation de package JS
